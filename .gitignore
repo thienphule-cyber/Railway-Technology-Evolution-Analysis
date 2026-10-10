@@ -1,0 +1,30 @@
+# MATLAB autosave and temporary files
+*.asv
+*.m~
+*.autosave
+*.slx.autosave
+*.slxc
+slprj/
+codegen/
+octave-workspace
+
+# MATLAB compiled / generated files
+*.mex*
+*.mat
+*.p
+
+# Runtime patches created by main.m (regenerated automatically)
+_patched/
+
+# Generated results
+comparison.csv
+railway_results.mat
+results/
+figures/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
